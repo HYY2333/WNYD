@@ -1,4 +1,4 @@
-/* pages/read/read.wxss */
+/* pages/read/read-detail/read-detail.wxss */
 @import '/iconfont/iconfont.wxss';
 page{
   background: #f6f6f6;
@@ -32,26 +32,12 @@ page{
   font-size: 42rpx;
   font-weight: bold;
   line-height: 52rpx;
+  margin-bottom: 30rpx;
 }
-.title text{
-  display: inline-block;
-  width: 74rpx;
-  height: 44rpx;
-  background: #bc7878;
-  border-radius: 44rpx;
-  text-align: center;
-  line-height: 44rpx;
-  font-size: 26rpx;
-  color: #fff;
-  position: relative;
-  bottom: 6rpx;
-}
+
 .intro{
   margin: 20rpx 0;
-  color: #828282;
-}
-.num{
-  display: flex;
-  justify-content: space-between;
-  color: #c0c0c0;
+  font-size: 30rpx;
+  color: #444;
+  line-height: 54rpx;
 }

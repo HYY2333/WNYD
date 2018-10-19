@@ -1,0 +1,6 @@
+/* pages/text1/text1.wxss */
+.box{
+  width: 100px;
+  height: 100px;
+  background: red;
+}
