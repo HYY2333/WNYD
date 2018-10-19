@@ -1,0 +1,18 @@
+<!--pages/read/read.wxml-->
+<!-- <text>pages/read/read.wxml</text> -->
+<view class='list'>
+  <view class='author'>
+    <image src='/image/img/photo1.jpg'></image>
+    <text>罗罔极</text>
+  </view>
+  <image class='big-pic' src='/image/bigPic.png'></image>
+  <view class='title' >
+   <text class='tit'>热点</text>
+  中国面临同样的问题，对广大发展中国家遇到的困难感同身受
+  </view>
+  <view class='intro'>中国自身在很长时间也面临同样的问题，对广大发展中国家遇到    的困难感同身受，能够急他们之所急，秉持正确义利观同这些国家开展互利合作，结合    自身发展经验，在力所能及范围内向广大发展中国家提供不附加任何政治条件的帮助。   </view>
+  <view class='num'>
+    <text>5346点击 · 4本书</text>
+    <text>893</text>
+  </view>
+</view>
