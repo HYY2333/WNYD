@@ -1,0 +1,11 @@
+<!--pages/text1/text1.wxml-->
+<text>pages/text1/text1.wxml</text>
+<view>{{msg}}</view>
+<view wx:for="{{arr}}" wx:key="{{index}}">
+  序号:{{index}}，
+  姓名:{{item.name}}，
+  年龄:{{item.age}}，
+  <text bindtap='handleDel' data-num='{{index}}'>删除</text>
+</view>
+<button bindtap='handleShow'>控制元素显示隐藏</button> 
+<view class='box' wx:if="{{show}}">被控制的元素</view>
