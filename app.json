@@ -1,11 +1,13 @@
 {
   "pages": [
-    "pages/read/read-detail/read-detail",
-    "pages/read/read",
-    "pages/text1/text1",
     "pages/classify/classify",
-    "pages/desk/desk",
-    "pages/my/my"
+    "pages/classify/book/book",
+    "pages/classify/books/books",
+    "pages/read/read",
+    "pages/my/my",
+    "pages/read/read-detail/read-detail",
+    "pages/text1/text1",
+    "pages/desk/desk"
   ],
   "window": {
     "backgroundTextStyle": "light",

@@ -1,0 +1,42 @@
+<!--pages/classify/book/book.wxml-->
+<!-- <view class='tit'>
+  <image src='/image/img/books1.png'></image>
+  <view>傲慢与偏见</view>
+  <view>【英】简·奥斯汀</view>
+</view>
+<view class='tab'>
+  <text class='active' bindtap='handletab'>详情</text>
+  <text bindtap='handletab'>目录</text>
+</view>
+<view class='intro'>本尼特先生有五个宝贝女儿，本尼特太太为她们的婚事操碎了心。新来邻居宾格利多金且帅，在一次舞会上，对本尼特家美貌的大女儿简一见钟情。参加舞会的还有宾格利的好友达希，他俊朗潇洒，贵气逼人，但恃才傲物，认为她们都不配成为自己的舞伴，其中包括简的妹妹伊丽莎白。自尊心很强的伊丽莎白无意间听
+</view>
+<view class='catalog'>
+  <view>第一章</view>
+  <view>第二章</view>
+  <view>第三章</view>
+</view>
+<view class='bottom'>
+  <text>加入书桌</text>
+  <text>阅读</text>
+</view> -->
+
+
+<view class='tit'>
+  <image src='{{bookId.photo}}'></image>
+  <view>{{bookId.bookname}}</view>
+  <view>{{bookId.author}}</view>
+</view>
+<view class='tab'>
+  <text class='active' bindtap='handletab'>详情</text>
+  <text bindtap='handletab'>目录</text>
+</view>
+<view class='intro'>{{bookId.intro}}
+</view>
+<view class='catalog'>
+  <view wx:for="{{cata}}" wx:key="{{index}}">{{item}}
+  </view>
+</view>
+<view class='bottom'>
+  <text>加入书桌</text>
+  <text>阅读</text>
+</view>

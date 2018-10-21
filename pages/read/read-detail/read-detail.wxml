@@ -1,21 +1,14 @@
 <!--pages/read/read-detail/read-detail.wxml-->
 <view class='list'>
-  <view class='author'>
-    <image src='/image/img/photo1.jpg'></image>
-    <text>月夜听雪</text>
-  </view>
-  <image class='big-pic' src='/image/img/pic1.jpg' mode= "aspectFill"></image>
   <view class='title'>
-    <text>热点</text>
-    京东签约美国磁飞机公司 想在地下用磁悬浮送快递
+    {{detailD.tit}}
+  </view>
+  <view class='author'>
+    <image src='{{detailD.aPhoto}}'></image>
+    <text>{{detailD.author}}</text>
   </view>
   <view class='intro'>
-    6 月 13 日，澎湃新闻记者获悉，京东集团（Nasdaq：JD）与美国磁飞机技术公司        （Magplane Technology, Inc. Nasdaq：MAGP）签订战略合作协议</view>
-  <view class='num'>
-    <text>228点击 · 4本书</text>
-    <view>
-      44
-      <text class='iconfont icon-dianzan'></text>
-    </view>
+    {{detailD.words}}
   </view>
+  <image class='big-pic' src='{{detailD.bigImg}}' mode= "aspectFill"></image>
 </view>

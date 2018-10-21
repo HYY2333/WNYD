@@ -1,0 +1,12 @@
+<!--pages/classify/books/books.wxml-->
+<view class='books'>
+  <!-- <view class='book'>
+    <image src='/image/img/book10.jpg'></image>
+    <text>人工智能</text>
+  </view> -->
+  <view class='book' wx:for="{{bookData}}" wx:key="{{index}}" bindtap='handleintro' data-id='{{item.objId}}'>
+    <image src="{{item.photo}}"></image>
+    <text>{{item.bookname}}</text>
+  </view>
+  
+</view>

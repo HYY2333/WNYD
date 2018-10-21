@@ -1,0 +1,86 @@
+/* pages/classify/book/book.wxss */
+.tit{
+  text-align: center;
+}
+.tit image{
+  width: 220rpx;
+  height: 300rpx;
+}
+.tit view:nth-child(2){
+  font-size: 32rpx;
+  margin: 60rpx 0 40rpx;
+}
+.tit view:nth-child(3){
+  font-size: 26rpx;
+  color: #149bb3;
+}
+.tab{
+  height: 88rpx;
+  display: flex;
+  justify-content: space-around;
+  border-bottom:1px solid #ececec;
+  margin-top: 70rpx;
+}
+.tab text{
+  display: inline-block;
+  height: 88rpx;
+  /* width: 50%; */
+  font-size: 28rpx;
+  color: #444;
+  line-height: 88rpx;
+  text-align: center;
+}
+.tab .active{
+  padding: 0 5rpx;
+  font-weight: bold;
+  border-bottom: 4rpx solid #444; 
+}
+.intro{
+  line-height: 50rpx;
+  font-size: 30rpx;
+  padding: 30rpx;
+  color: #444;
+  box-sizing: border-box; 
+  display: block;
+}
+.intro.active{
+  display: none;
+}
+.catalog{
+  /* display: none; */
+}
+.catalog.active{
+  display: block;
+}
+.catalog view{
+  height: 100rpx;
+  width: 100%;
+  line-height: 100rpx;
+  font-size: 30rpx;
+  border-bottom: 1px solid #ececec;
+  margin-left: 50rpx;
+}
+.catalog view:last-child{
+  margin-bottom: 110rpx;
+}
+.bottom{
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.bottom text{
+  display: inline-block;
+  height: 100rpx;
+  width: 50%;
+  text-align: center;
+  line-height: 100rpx;
+  font-size: 30rpx;
+  box-shadow: 0 0 20rpx 1rpx #d8d8d8;
+  background: white;
+}
+.bottom text:nth-child(2){
+  text-align: center;
+  line-height: 100rpx;
+  background: #b89477;
+  color: white;
+}

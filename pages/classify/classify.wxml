@@ -1,2 +1,33 @@
 <!--pages/classify/classify.wxml-->
-<text>pages/classify/classify.wxml</text>
+<view class='Topimg'>
+  <view class='TopImg'>
+    <image src='/image/img/book6.jpg'></image>
+    <view>
+      <text>在读榜</text>
+      <text>Top List</text>
+    </view>
+  </view>
+  <view class='TopImg'>
+    <image src='/image/img/book7.jpg'></image>
+    <view>
+      <text>新书榜</text>
+      <text>New Release</text>
+    </view>
+  </view>
+</view>
+
+<view class='classify'>
+  <text>分类</text>
+</view>
+
+<view class='bottom'>
+  <!-- <view class='Bottomimg' >
+    <image src='/image/img/book7.jpg'></image>
+    <text>新书榜</text>
+  </view> -->
+  <view class='Bottomimg' wx:for="{{classify}}" 
+    wx:key="{{index}}" data-id='{{index}}' bindtap='handlebook'>
+    <image src='{{item.bigImg}}'></image>
+    <text>{{item.tit}}</text>
+  </view>
+</view>
